@@ -1,0 +1,114 @@
+
+h1  {font-size:60px;
+    background-color:blue;
+    color:red;
+    text-transform:uppercase;}
+
+h2  {font-size: 30px;
+    background-color: grey;
+    color:blue;
+    text-align:left;}
+
+body {font-family: Arial, sans-serif;
+    background-color:auto;
+    background-color: grey;
+    text-wrap:100%;
+    margin: 0;
+    padding: 0;}
+
+    .left-align {float:left;
+                  margin-right: 10px; }
+
+
+
+  .menu {list-style-type:none;
+        padding: 15px;
+        font-size: 20px;
+        margin: 0;
+        display: flex;
+        gap: 40px;
+        text-decoration: color(srgb red green blue);
+        background-color: grey;
+        color:blue;}
+
+  
+  
+  #content {padding: 20px;}
+  
+  
+  #vehicles {display: flex;
+    flex-wrap: wrap;}
+  
+  
+  .vehicle {width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: green;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);}
+ 
+  
+  .vehicle img {width: 100%;
+    height: auto;
+    border-radius: 5px;}
+ 
+  
+  #contact-form {margin-top: 10px;
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);}
+ 
+  
+  #contact-form input[type="text"], #contact-form textarea {width: 100%;
+    padding: 2px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;}
+ 
+  
+  #contact-form input[type="submit"] {background-color:blue;
+    color: #fff;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;}
+  
+  
+  #contact-form input[type="submit"]:hover {background-color: rgb(128, 0, 0);}
+
+  .image-grid {display: grid;
+                  grid-template-columns: repeat(6, 2fr);
+                  align-items: center;
+                  gap: 10px;
+                  padding: 30px;}
+
+ .image-grid img {width:100%;
+                  height: auto;
+                  display: block;}                 
+
+  .caption {margin: top 8px;
+            font-size:14px;}
+
+ .img-item {text-align: center;
+            width: 100%;
+            height: auto;}    
+            
+   footer  {background-color: grey;
+              color: black;
+              text-align: center;
+              padding: 15px 0;
+              position: fixed;
+              width: 100%;
+              bottom: 0;}
+      
+.footer-content {display: flex;
+                      flex-direction: column;
+                      align-items: center;}
+      
+.footer-content p{margin: 0;}
+      
+
+
+    
+  
